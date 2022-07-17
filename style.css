@@ -31,7 +31,9 @@ section{
 
 
 
-
+.navOpener{
+    display: none;
+}
 nav{
     height: 15vh;
     display: flex;
