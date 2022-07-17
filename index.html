@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <nav id="nav">
+        <a href="#">Edie</a>
+        <div class="navLinks" id="navLinks">
+            <a href="#Home" id="home" onclick="navOpen(this)">Home</a>
+            <a href="#Services" id="services" onclick="navOpen(this)">Services</a>
+            <a href="#OurWorks" id="ourWork" onclick="navOpen(this)">Our Works</a>
+            <a href="#Clients" id="clients" onclick="navOpen(this)">Clients</a>
+            <a href="#Contact" id="contact" onclick="navOpen(this)">Contact</a>
+            <div class="navOpener navActive" style="margin-top: 5rem" id="navClose">
+                <div class="upnavOpenerBar navOpenerBar"></div>
+                <div class="middlenavOpenerBar navOpenerBar"></div>
+                <div class="downnavOpenerBar navOpenerBar"></div>
+            </div>
+        </div>
+
+        <div class="navOpener" id="navOpener" onclick="NavOpen(this)">
+            <div class="upnavOpenerBar navOpenerBar"></div>
+            <div class="middlenavOpenerBar navOpenerBar"></div>
+            <div class="downnavOpenerBar navOpenerBar"></div>
+        </div>
+    </nav>
+
+
+    <section id="Home">
+        <div class="homeText">
+            <p class="homeTextBlue">Unhappy with your website?</p>
+            <h1 class="sectionTitle">We create beautiful and fast web services</h1>
+        </div>
+        <img src="assets/heroImage.jpg" alt="">
+        <div class="homeText">
+            <h1 class="sectionTitle">Story, emotion and purpose</h1>
+
+            <p class="sectionText">We help transform your ideas into real world applications that will outperform your thoughts compotition and help you achieve your stratigic goals in short period of time</p>
+            <p>want us to connect us?</p>
+            <form action="" class="relative">
+                <input type="email" placeholder="Email">
+                <input type="submit" value="Join" class="absolute">
+            </form>
+        </div>
+    </section>
+    <section id="Services">
+        <h1 class="sectionTitle">We offer high demand services</h1>
+        <div class="servicesContainer">
+            <div class="serviceCard">
+                <i class="fa-solid fa-pen serviceCardIcon serviceCardIcon1"></i>
+                <h2 class="serviceCardTitle">UI/UX Design</h2>
+                <p class="serviceCardText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae nulla fuga recusandae labore nisi ipsum explicabo quisquam beatae voluptates id!</p>
+                <a href="#" class="serviceCardBtn">Get Started</a>
+            </div>
+            <div class="serviceCard">
+                <i class="fa-solid fa-code serviceCardIcon serviceCardIcon2"></i>
+                <h2 class="serviceCardTitle">Front End</h2>
+                <p class="serviceCardText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae nulla fuga recusandae labore nisi ipsum explicabo quisquam beatae voluptates id!</p>
+                <a href="#" class="serviceCardBtn">Get Started</a>
+            </div>
+            <div class="serviceCard">
+                <i class="fa-solid fa-bars serviceCardIcon serviceCardIcon3"></i>
+                <h2 class="serviceCardTitle">Back End</h2>
+                <p class="serviceCardText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae nulla fuga recusandae labore nisi ipsum explicabo quisquam beatae voluptates id!</p>
+                <a href="#" class="serviceCardBtn">Get Started</a>
+            </div>
+        </div>
+    </section>
+    <section id="OurWorks">
+        <h1 class="sectionTitle">Good design means good business</h1>
+
+        <div class="up">
+            <div class="card card1">
+                <img src="assets/smarthome.jpg" alt="">
+                <p>full stack applications</p>
+                <h2>Smart home dashbord</h2>
+            </div>
+            <div class=" card card2">
+                <img src="assets/onboard.png" alt="">
+                <p>Web Design</p>
+                <h2>Onboard application</h2>
+            </div>
+        </div>
+        <div class="down">
+            <div class="card card1">
+                <img src="assets/booking.png" alt="">
+                <p>Mobile Applications</p>
+                <h2>Booking System</h2>
+            </div>
+            <div class=" card card2">
+                <img src="assets/juice-product.png" alt="">
+                <p>Frontend applications</p>
+                <h2>Juice Product Homepage</h2>
+            </div>
+        </div>
+        <a href="#" class="seeMore">See More →</a>
+    </section>
+    <section id="Clients">
+        <div class="clientsUp">
+            <div class="left">
+                <p class="red">Meet the team</p>
+                <h1 class="sectionTitle">We are chilled and a laidback team</h1>
+                <p class="sectionText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, provident?
+                </p>
+            </div>
+            <div class="right">
+                <div class="imagesLeft">
+                    <img src="assets/person3.png" alt="">
+                </div>
+                <div class="imagesRight">
+                    <img src="assets/person1.png" alt="">
+                    <img src="assets/person2.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="clientsTestimonial">
+            <h3 class="testimonialContent sectionTitle">
+                "Fast and outstanding results. Edie usnderstands their customers's needs. They have a young and talented team."
+            </h3>
+            <div class="profile">
+                <img src="assets/person4.png" alt="">
+                <div>
+                    <p class="name">Carlos Tran</p>
+                    <p>The Decorate Catsby</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Services">Services</a>            </li>
+            <li><a href="#OurWorks">Our Works</a>            </li>
+            <li><a href="#Clients">Clients</a>            </li>
+            <li><a href="#Contact">Contact</a>            </li>
+            
+        </ul>
+        <div class="social">
+            <a href="#">Edie</a>
+            <div class="socialIcons">
+                <a href="#"><img src="assets/instagram.svg" alt=""></a>
+                <a href="#"><img src="assets/linkedin.svg" alt=""></a>
+                <a href="#"><img src="assets/twitter.svg" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <p>want us to connect us?</p>
+            <form action="" class="relative">
+                <input type="email" placeholder="Email">
+                <input type="submit" value="Join" class="absolute">
+            </form>
+        </div>
+    </footer>
+    <div class="scrollTopBtn" id="scrollTopBtn" onclick="ScrollTop()"><i class="fa-solid fa-angle-up"></i></div>
+</body>
+</html>
